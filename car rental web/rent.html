@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> GHV Car Rental'S-RENT NOW</title>
+<style>
+    body {
+        background-image: url("https://media.istockphoto.com/id/1191718909/photo/couple-in-the-showroom-buying-new-car.jpg?s=612x612&w=0&k=20&c=Ki2wA-MvogA6a0HnLbgC4EMFRsCK1Lvx5aF8TTZEdEc=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .container {
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    label {
+        display: block;
+        margin-bottom: 2px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color:red;
+        color:#fff;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 10px;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    @media (max-width: 768px) {
+        .container {
+            margin: 20px;
+            padding: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>RENT YOUR DREAM CAR</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="location">Location:</label>
+        <select id="location" name="l;ocation" required>
+            <option> select location </option> <option>Tirupati</option> <option> Hyderabad </option>  <option>  Srikakulam </option> <option>  vijayawada </option> <option>  Visakhapatnam </option> 
+        </select>
+
+        <label for="phone">Phone No:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="car">Select Car:</label>
+        <select id="car" name="car" required>
+            <option>  cars </option> <option> ROLLS ROYCS</option> <option> MERCEDES BENZ </option>  <option> BENTLEY</option> <option> PORSCHE </option> <option> BMW </option> <option> LAMBORGHINI</option> <option> AUDI </option> <option> RANGE ROVER </option> <option> MINI COOPER</option> <option> VOLVO</option> <option> FERRARI</option> <option> JAGUAR</option>
+        </select>
+        <label for="password">date of booking:</label>
+        <form>
+            <label for="pickup_date">Pickup Date:</label>
+            <input type="date" id="pickup_date" name="pickup_date">
+          
+            <label for="return_date">Return Date:</label>
+            <input type="date" id="return_date" name="return_date">
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>

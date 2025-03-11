@@ -1,0 +1,10 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image:url('https://cdn.motor1.com/images/mgl/JO94P6/s1/most-expensive-cars-in-the-world.jpg');
+    background-size:cover;
+    background-repeat:no repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
